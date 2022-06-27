@@ -1,0 +1,1 @@
+emcc --embed-file Roboto-Regular.ttf main.c -o line-codes.html -sSINGLE_FILE -sUSE_SDL=2 -O3 --closure 1 -flto -sASYNCIFY
